@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  height: 75px;
+}
+
+.name-and-rank {
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.explanation {
+  padding: 2em;
+  font-size: 1.2em;
+}
+
+.main-location {
+  text-align: center;
+  padding: 2em;
+}
+
+.hero {
+  width: 100%;
+}
+
+.caption {
+  color: #999;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+.section-title {
+  color: #999;
+  margin-bottom: 1em;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.travel-bite {
+  width: 30%;
+  text-align: center;
+  min-width: 250px;
+}
+
+.travel-destinations {
+  padding: 2em;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+
+@media (max-width: 850px) {
+  .travel-bite {
+    width: 100%;
+  }
+}
+
